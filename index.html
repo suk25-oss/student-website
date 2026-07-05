@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Home Tuition - Personalized Learning at Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">Apex<span>Tuition</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#subjects">Subjects</a></li>
+                <li><a href="#why-us">Why Choose Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+   <section id="home" class="hero">
+
+    <div class="overlay">
+
+        
+
+        <h1>Learn Smarter with Apex Home Tuition</h1>
+
+        <p>
+            Personalized Home Tuition for CBSE, ICSE and State Board students.
+            Learn from experienced tutors at your home.
+        </p>
+
+        <a href="#contact" class="btn">Book a Free Demo</a>
+
+    </div>
+
+</section>
+
+
+</section>
+
+      <!-- Subjects Section -->
+    <section id="subjects" class="subjects">
+        <div class="container">
+            <h2>Our Popular Subjects</h2>
+            <p class="section-subtitle">Tailored lessons for all grades and curricula</p>
+        
+            <div class="grid">
+                <div class="card"
+                onclick="openModal(
+'Mathematics',
+'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX4wCscFcSYiA_kcoj1bhDngFcaxlxOF7nPnMfSj9_6w&s=10',
+'Algebra, Geometry, Trigonometry, Calculus, Mental Maths, Olympiad Preparation. Classes 6 to 12 for CBSE, ICSE and State Board students.'
+)">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX4wCscFcSYiA_kcoj1bhDngFcaxlxOF7nPnMfSj9_6w&s=10">
+
+<h3>Mathematics</h3>
+
+<p>Click to know more</p>
+
+</div>
+    
+     <div class="card"
+     onclick="openModal(
+'Science',
+'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFDUH0SQI3hiDdFxZS8VPMNIhA7VsHr0-7egNgQxPcFg&s=10',
+'Physics, Chemistry and Biology with practical examples, experiments and concept-based learning.'
+)">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFDUH0SQI3hiDdFxZS8VPMNIhA7VsHr0-7egNgQxPcFg&s=10">
+
+<h3>Science</h3>
+
+<p>Click to know more</p>
+</div>
+
+<div class="card"
+          onclick="openModal(
+'English & Languages',
+'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAuaTvkdjTSp1x7YJe7VK7khnCwZvMi3OaiLkQFL-SiQ&s=10',
+'Grammar, Vocabulary, Reading, Writing, Spoken English and Communication Skills.'
+)">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAuaTvkdjTSp1x7YJe7VK7khnCwZvMi3OaiLkQFL-SiQ&s=10">
+
+<h3>English</h3>
+
+<p>Click to know more</p>
+
+</div>
+    <div class="card"
+onclick="openModal(
+'Web Development',
+'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnhVEHkkwvGHLLVYMoPahTLXHNFnyIJ1gt_4ynoSWaww&s=10',
+'Learn HTML, CSS, JavaScript, Responsive Design and build real-world websites.'
+)">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnhVEHkkwvGHLLVYMoPahTLXHNFnyIJ1gt_4ynoSWaww&s=10">
+
+<h3>Web Development</h3>
+
+<p>Click to know more</p>
+
+</div>
+            
+
+        </div>
+   
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="why-us">
+        <div class="container">
+            <h2>Why Choose Apex Tuition?</h2>
+            <div class="features">
+                <div class="feature-item">
+                    <h4>Verified Tutors</h4>
+                    <p>All our instructors undergo strict background checks and academic evaluations.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>1-on-1 Attention</h4>
+                    <p>Customized learning pacing focused entirely on your child's specific requirements.</p>
+                </div>
+                <div class="feature-item">
+                    <h4>Flexible Scheduling</h4>
+                    <p>Choose timings that align perfectly with your family's routine and extracurriculars.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Request a Home Tutor Today</h2>
+            <p>Fill out the form below and our team will match you with the perfect tutor within 24 hours.</p>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Parent/Student Name</label>
+                    <input type="text" id="name" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject Needed</label>
+                    <select id="subject" required>
+                        <option value="">Select a subject</option>
+                        <option value="math">Mathematics</option>
+                        <option value="science">Science</option>
+                        <option value="english">English & Languages</option>
+                        <option value="coding">Web Development (HTML/CSS)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Additional Requirements</label>
+                    <textarea id="message" rows="4" placeholder="Mention grade, board, or specific targets..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-submit">Submit Request</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Subject Popup -->
+<div id="subjectModal" class="modal">
+
+    <div class="modal-content">
+
+        <span class="close">&times;</span>
+
+        <img id="modalImage" src="" alt="Subject">
+
+        <h2 id="modalTitle"></h2>
+
+        <p id="modalText"></p>
+
+        <a href="#contact" class="btn">Book a Free Demo</a>
+
+    </div>
+
+</div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Apex Tuition. By Suk Maya Manger</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
