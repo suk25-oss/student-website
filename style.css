@@ -34,7 +34,18 @@ body {
     top: 0;
     z-index: 100;
 }
-
+.math-icon{
+    color:#007bff;
+}
+.science-icon{
+    color:#28a745;
+}
+.english-icon{
+    color:#9c27b0;
+}
+.web-icon{
+    color:#ff6b00;
+}
 .logo {
     font-size: 24px;
     font-weight: bold;
