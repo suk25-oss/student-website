@@ -33,19 +33,30 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
-}
 .math-icon{
-    color:#007bff;
+    color:#007bff !important;
+    margin-right:8px;
+    font-size:18px;
 }
+
 .science-icon{
-    color:#28a745;
+    color:#28a745 !important;
+    margin-right:8px;
+    font-size:18px;
 }
+
 .english-icon{
-    color:#9c27b0;
+    color:#9c27b0 !important;
+    margin-right:8px;
+    font-size:18px;
 }
+
 .web-icon{
-    color:#ff6b00;
+    color:#ff9800 !important;
+    margin-right:8px;
+    font-size:18px;
 }
+
 .logo {
     font-size: 24px;
     font-weight: bold;
